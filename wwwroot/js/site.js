@@ -5,7 +5,6 @@
 
 connection.on('refreshAssessmentList', function (message) {
     LoadAssessments('#assessments_container');
-    toastr['success'](message);
 }); 
 connection.on('refreshUsersList', function () {
     LoadUsers('#users_container');
